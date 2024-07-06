@@ -64,7 +64,7 @@ const clearForm = () => {
             <form @submit.prevent="handleSubmit">
                 <div class="flex-col text-left">
                     <div class="w-full">
-                        <p class="mt-1 text-sm font-semibold">First Name</p>
+                        <p class="mt-8 text-sm font-semibold">First Name</p>
                         <input
                             v-model="person.first_name"
                             type="text"
@@ -84,7 +84,7 @@ const clearForm = () => {
                         </p>
                     </div>
                     <div class="w-full">
-                        <p class="mt-1 text-sm font-semibold">Last Name</p>
+                        <p class="mt-8 text-sm font-semibold">Last Name</p>
                         <input
                             v-model="person.last_name"
                             type="text"
@@ -104,7 +104,7 @@ const clearForm = () => {
                         </p>
                     </div>
                     <div class="w-full">
-                        <p class="mt-1 text-sm font-semibold">Other Names</p>
+                        <p class="mt-8 text-sm font-semibold">Other Names</p>
                         <input
                             v-model="person.other_names"
                             type="text"
@@ -112,7 +112,7 @@ const clearForm = () => {
                         />
                     </div>
                     <div class="w-full">
-                        <p class="mt-1 text-sm font-semibold">Age</p>
+                        <p class="mt-8 text-sm font-semibold">Age</p>
                         <input
                             v-model="person.age"
                             type="text"
@@ -132,7 +132,7 @@ const clearForm = () => {
                         </p>
                     </div>
                     <div class="w-full">
-                        <p class="mt-1 text-sm font-semibold">Email</p>
+                        <p class="mt-8 text-sm font-semibold">Email</p>
                         <input
                             v-model="person.email"
                             type="text"
@@ -152,7 +152,7 @@ const clearForm = () => {
                         </p>
                     </div>
                     <div class="w-full">
-                        <p class="mt-1 text-sm font-semibold">Website</p>
+                        <p class="mt-8 text-sm font-semibold">Website</p>
                         <input
                             v-model="person.website"
                             type="text"
@@ -172,7 +172,7 @@ const clearForm = () => {
                         </p>
                     </div>
                 </div>
-                <div class="flex justify-end">
+                <div class="flex justify-end mt-8">
                     <button
                         class="px-2 py-1 mr-2 font-normal text-white bg-red-600 rounded-lg shadow-sm text-md hover:bg-red-700 active:bg-red-900"
                         type="submit"
