@@ -1,0 +1,32 @@
+{
+    "name": "vuelidate-demo",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview",
+        "lint": "eslint --fix 'src/**/*.{js,ts,jsx,tsx,vue}'",
+        "prettier": "npx prettier . --write",
+        "format": "npm run lint && npm run prettier"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "@vuelidate/core": "^2.0.3",
+        "@vuelidate/validators": "^2.0.4",
+        "vue": "^3.4.31"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.5",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.39",
+        "tailwindcss": "^3.4.4",
+        "vite": "^5.3.3",
+        "@eslint/eslintrc": "^3.1.0",
+        "@eslint/js": "^9.6.0",
+        "eslint": "^9.6.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-vue": "^9.27.0",
+        "prettier": "^3.3.2"
+    }
+}
