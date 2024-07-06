@@ -56,7 +56,7 @@ const clearForm = () => {
 </script>
 
 <template>
-    <div class="flex justify-center">
+    <div class="flex shrink-0 justify-center min-w-[363px]">
         <div
             class="flex-col gap-2 p-5 mt-5 w-3/5 h-auto rounded-lg border border-gray-300 shadow-md"
         >
